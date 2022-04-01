@@ -6,6 +6,7 @@ public class Win {
         for (int index = 0; index < board.length; index++) {
             if (board[index][index] == 1 && (horizLine(board, index) || vertLine(board, index))) {
             result = true;
+            break;
             }
         }
         return result;
