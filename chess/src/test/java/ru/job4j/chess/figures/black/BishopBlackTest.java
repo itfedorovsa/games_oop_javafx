@@ -1,12 +1,10 @@
-package ru.job4j.chess.firuges.black;
+package ru.job4j.chess.figures.black;
 
 import org.junit.Assert;
 import org.junit.Test;
 import ru.job4j.chess.ImpossibleMoveException;
-import ru.job4j.chess.firuges.Cell;
-import ru.job4j.chess.firuges.Figure;
-
-import static org.junit.Assert.*;
+import ru.job4j.chess.figures.Cell;
+import ru.job4j.chess.figures.Figure;
 
 public class BishopBlackTest {
 
